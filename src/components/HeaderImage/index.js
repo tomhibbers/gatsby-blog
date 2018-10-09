@@ -1,14 +1,14 @@
 import React from 'react';
-import Link, { withPrefix } from 'gatsby-link';
+import { Link } from "gatsby"
 
 import Wrapper from './Wrapper';
-import imgSrc from '../../main.jpg';
+import imgSrc from '../../opm-logo.png';
 
 function HeaderImage() {
   return (
     <Wrapper>
       <Link to="/">
-        <img src={imgSrc} />
+        <img alt="logo" src={imgSrc} />
       </Link>
     </Wrapper>
   );

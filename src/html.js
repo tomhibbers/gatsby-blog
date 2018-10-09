@@ -2,7 +2,7 @@ import React from "react";
 
 import favicon from './favicon.ico';
 
-module.exports = class HTML extends React.Component {
+export default class HTML extends React.Component {
   render() {
     return (
       <html {...this.props.htmlAttributes}>

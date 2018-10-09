@@ -2,7 +2,8 @@ import React from "react";
 import { renderToString } from "react-dom/server";
 import { ServerStyleSheet, StyleSheetManager } from "styled-components";
 
-exports.replaceRenderer = ({
+
+export default replaceRenderer = ({
   bodyComponent,
   replaceBodyHTMLString,
   setHeadComponents

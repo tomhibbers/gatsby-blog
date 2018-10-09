@@ -1,15 +1,15 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  tagline: 'Full-stack Web Developer',
+  title: '원샷!', // Required
+  author: 'Tom Hibbers', // Required
+  tagline: 'Full-Stack Developer',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald'
+    website: 'https://tomhibbers.github.io',
+    github: 'https://github.com/tomhibbers',
+    twitter: 'https://twitter.com/tomhibbers',
+    linkedin: 'https://www.linkedin.com/in/tom-hibbers-a92b2959/'
   }
 };
